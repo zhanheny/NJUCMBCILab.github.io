@@ -1,1 +1,58 @@
-site_name: My Docs
+site_name: NJUCM BCI LAB
+site_url: https://NJUCMBCILab.github.io/NJUCMBCILab/
+site_author: Yongheng Zhang
+# Repository
+repo_name: NJUCMBCILab
+repo_url: https://github.com/zhanheny/NJUCMBCILab.github.io 
+edit_uri: docs
+
+nav:
+  - 实验介绍: index.md
+  - 相关论文: Related.md
+  - 关于我们: AboutUS.md
+ 
+      
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: material/library
+
+  features:
+    - navigation.tabs
+    - navigation.top
+
+  palette:
+    
+    # Light mode
+    - blue: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
