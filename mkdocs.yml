@@ -7,9 +7,10 @@ repo_url: https://github.com/zhanheny/NJUCMBCILab.github.io
 edit_uri: docs
 
 nav:
-  - 实验介绍: index.md
-  - 相关论文: Related.md
-  - 关于我们: AboutUS.md
+  - 首页: index.md
+  - 研究: Research.md
+  - 团队: AboutUS.md
+  - 出版: Publication.md
  
       
 theme:
